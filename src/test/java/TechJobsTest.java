@@ -13,12 +13,14 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by LaunchCode
  */
+@SuppressWarnings("GrazieInspection")
 public class TechJobsTest {
 
     private static ByteArrayOutputStream baos;
 
     // set up an alternative output stream to capture output
     // this needs to be done before every test so we don't contaminate test output
+    @SuppressWarnings("GrazieInspection")
     @Before
     public void setUpOutputStream() {
         baos = new ByteArrayOutputStream();
