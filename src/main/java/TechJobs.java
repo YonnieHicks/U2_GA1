@@ -72,6 +72,7 @@ public class TechJobs {
 
         int choiceIdx = -1;
         Boolean validChoice = false;
+
         String[] choiceKeys = new String[choices.size()];
 
         // Put the choices in an ordered structure, so we can
